@@ -29,7 +29,3 @@
         "MCC 学研 coze",
     ],
 }
-
-{
-    "$error": "飞书多维表格(open.feishu.cn) requires your authentication. By authenticating, you will share your data with the AI models you selected in Coze. Please [click here](https://open.feishu.cn/open-apis/authen/v1/index?redirect_uri=https%3A%2F%2Fwww.coze.cn%2Fapi%2Fplugin_oauth%2F7389226436802019368%2Fauthorization_code&app_id=cli_a5d6e52ba83c100c&state=22gRs4NQv0Ck4Hydv2hWsjFYMK7qNZYBJp29hRW1NPqxJoWfQyC4tl4vsZPl0JOpHfZ00F8A0tfJI_Wqlh4wtMH_1CEtDSMflnSAPEH4XKfPDo8z8PoDqzOwf_HGDDgTk9KCh3z2O3r7MsMyraMsv5eLUQBqscThZ0xQwLVF7V0Dub7q0kDPBSETT1yEDZRqYnV3frlxtoFU-_zhsSLehSHU-ly8WhrdkkxvlVTE_rh7Lk6DqYxROWZYsnC5POsbzDvaJQ9Yb7SpfcBmdgXkaujRjfKWfguyMEllcWHJGbgvka8-3obtF-g6diXBf10sBVCYLD3gIjeTZKnlBEvDcZ-ot2tUa-sDAaOa8I2SzFQI1i1HN26TpVkv60q8tfQzlySWPbMgzzXjVEFVthwVCCQ-QRB3HLW2uTAT5Wg9nI_ExNaCTlkwiKImdcUIDC6c)"
-}
