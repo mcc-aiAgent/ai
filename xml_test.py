@@ -1,7 +1,7 @@
-import lxml
+from lxml import html
 from bs4 import BeautifulSoup
 
-print(lxml.__version__)
+er = html.etree
 xml_doc = """
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <bookstore>

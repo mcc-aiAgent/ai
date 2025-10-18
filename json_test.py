@@ -24,10 +24,10 @@ book_json = """
 """
 books = json.loads(book_json)
 print(type(books))  # <class 'dict'>
-json_expression = "$.store.bicycle.color"
+json_expression = "$.store.bicycle.color"  # 获取对应的值
 result = jsonpath.jsonpath(books, json_expression)
 print(result)
 
-json_expression = "$.store.book[*]"
+json_expression = "$.store.book[*]"  # 获取book下的所有数据
 result = jsonpath.jsonpath(books, json_expression)
 print(result)

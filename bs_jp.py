@@ -87,3 +87,19 @@ if __name__ == "__main__":
         print(f"共抓取 {len(movies_list)} 部电影信息。")
     else:
         print("未抓到数据。")
+
+
+import json
+from jsonpath import jsonpath
+
+# api_response = {
+#   "data": {
+#     "movies": [
+#       {"title": "肖申克的救赎", "rating": "9.7", "id": "1292052"},
+#       {"title": "霸王别姬", "rating": "9.6", "id": "1291546"}
+#     ]
+#   }
+# }
+# # 假设 api_response 是上面那个JSON字典
+# movie_titles = jsonpath(api_response, '$..movies[*].title')
+# print(movie_titles)  # 输出: ['肖申克的救赎', '霸王别姬']
